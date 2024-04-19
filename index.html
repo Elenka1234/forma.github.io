@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Уважаемый клиент</h1>
+    <i>Рады приветствовать вас на нашем сайте! Заполните, пожалуйста форму для совершения заказа</i>
+    <form>
+        <fieldset> <legend>Сведения о клиенте</legend>
+            <p><label>Имя*<input type="text" placeholder="Введите имя"></label></p>
+            <p><label>Фамилия*<input type="text" placeholder="Введите Фамилию"></label></p>
+            <p><label>Дата рождения*<input type="data"></label></p>
+            <p><label>Укажите адрес электронной почты*<input type="email"></label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Данные о заказе</legend>
+            <p><label>Выберите предпочитаемый текст фона*<input type="color"></label></p>
+            <p><label>Загрузите изображение для печати*<input type="file"></label></p>
+            <p><label>Укажите количество для заказа*<input type="number"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Способ получения заказа</legend>
+            Укажите способ оплаты: <br>
+            <p><label>На сайте<input type="radio" name="oplata"></label></p>
+            <p><label>При получении<input type="radio" name="oplata"></label></p>
+            Выберите пункт выдачи: <br>
+            <p><select> <option>Москва</option>
+            <option>Самара</option>
+            <option>Санкт-Петербург</option> </select></p>
+        </fieldset>
+        <p><label>Я даю согласие на обработку персональных данных*</label></p>
+        <button>Заказать</button> <button>Очистить форму</button> <button disabled="">Отменить</button>
+    </form>
+</body>
+</html>

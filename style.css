@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(188, 230, 243, 0.3);
+
+}
+h1 {
+    color:rgb(18, 57, 107);
+}
+legend {
+    color: rgb(178, 70, 211);
+}
+p {
+    color: rgb(101, 41, 199);
+}
+form {
+    padding-top: 30px;
+    
+}
